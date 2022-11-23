@@ -4,8 +4,8 @@ public class User {
 
   //это тестовые креды для всех пользователей, указанные разработчиками на самом сайте https://www.saucedemo.com/
   
-  private String name = System.getProperty("username");
-  private String password = System.getProperty("password");
+  private String name = System.getenv("username");
+  private String password = System.getenv("password");
 
   public User() {
   }
